@@ -31,6 +31,9 @@ int main() {
 		case 6 :
 			quickSort(0, MAX_ARRAY - 1);
 			printAry();
+		case 7 :
+			stack();
+			printAry();
 		default:
 			break;
 	}
